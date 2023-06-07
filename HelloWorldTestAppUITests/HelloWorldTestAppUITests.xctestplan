@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "D5AE0D62-EA56-403E-AF34-481947AA8D24",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:HelloWorldTestApp.xcodeproj",
+          "identifier" : "E3CAB5F729A80B6600C8D665",
+          "name" : "HelloWorldTestApp"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:HelloWorldTestApp.xcodeproj",
+      "identifier" : "E3CAB5F729A80B6600C8D665",
+      "name" : "HelloWorldTestApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:HelloWorldTestApp.xcodeproj",
+        "identifier" : "E3CAB61529A80B6800C8D665",
+        "name" : "HelloWorldTestAppTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:HelloWorldTestApp.xcodeproj",
+        "identifier" : "E3CAB61F29A80B6800C8D665",
+        "name" : "HelloWorldTestAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
