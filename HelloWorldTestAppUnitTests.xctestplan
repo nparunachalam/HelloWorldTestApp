@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "EF43A147-64C2-4F71-A099-CF2CC951350F",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:HelloWorldTestApp.xcodeproj",
+        "identifier" : "E3CAB61529A80B6800C8D665",
+        "name" : "HelloWorldTestAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -40,32 +40,10 @@
       </CodeCoverageTargets>
       <TestPlans>
          <TestPlanReference
-            reference = "container:HelloWorldTestAppUITests/HelloWorldTestAppUITests.xctestplan"
+            reference = "container:HelloWorldTestAppUnitTests.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
-      <Testables>
-         <TestableReference
-            skipped = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3CAB61529A80B6800C8D665"
-               BuildableName = "HelloWorldTestAppTests.xctest"
-               BlueprintName = "HelloWorldTestAppTests"
-               ReferencedContainer = "container:HelloWorldTestApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E3CAB61F29A80B6800C8D665"
-               BuildableName = "HelloWorldTestAppUITests.xctest"
-               BlueprintName = "HelloWorldTestAppUITests"
-               ReferencedContainer = "container:HelloWorldTestApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-      </Testables>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
